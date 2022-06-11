@@ -1,3 +1,9 @@
-# starterKoPring
+# Kopring Starter
 
-Kotiln + SpringBoot + JPA + REST API 조합으로 프로젝트를 시작할때 사용
+- framework : springBoot
+- interface : Data JPA
+- DateBase : H2
+
+
+- 쿼리파라미터 로그남기기 
+  - https://github.com/gavlyukovskiy/spring-boot-data-source-decorator
