@@ -1,9 +1,12 @@
 # Kopring Starter
+<b>framework</b> : springBoot + kotlin + REST API
 
-- framework : springBoot
-- interface : Data JPA
-- DateBase : H2
+<b>interface</b> : Data JPA
+
+<b>Datebase</b>  : H2 
 
 
-- 쿼리파라미터 로그남기기 
+<br>
+
+### 쿼리파라미터 로그남기기 
   - https://github.com/gavlyukovskiy/spring-boot-data-source-decorator
