@@ -7,5 +7,8 @@ import org.springframework.boot.runApplication
 class DanteApplication
 
 fun main(args: Array<String>) {
+	val hello = Hello( "hello")
+	print(hello.data)
+
 	runApplication<DanteApplication>(*args)
 }
