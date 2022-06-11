@@ -7,4 +7,5 @@ import javax.persistence.PersistenceContext
 
 @Repository
 interface MemberRepository : JpaRepository<Member, Long?> {
+    fun findByEmail(email: String): Member
 }

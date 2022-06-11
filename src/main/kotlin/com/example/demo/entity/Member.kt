@@ -13,4 +13,8 @@ class Member (name: String, email : String){
     var username : String = name
     var email : String = email
 
+    override fun toString(): String {
+        return "Member(id=$id, username='$username', email='$email')"
+    }
+
 }

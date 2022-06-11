@@ -6,7 +6,6 @@ import javax.persistence.*
 @Entity
 @Table(name = "account")
 class Account(member: Member, number: String, balance: BigDecimal) {
-
     @Id
     @GeneratedValue
     var id: Long? = null
@@ -17,5 +16,7 @@ class Account(member: Member, number: String, balance: BigDecimal) {
     var number: String = number
     var balance: BigDecimal = balance
 
-
+    override fun toString(): String {
+        return "Account(id=$id, member=$member, number='$number', balance=$balance)"
+    }
 }
